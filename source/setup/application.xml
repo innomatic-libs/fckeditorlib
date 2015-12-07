@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<application>
+	<definition>
+		<idname>fckeditorlib</idname>
+		<release>
+			<version>2.6.4</version>
+			<date>2009/01/29</date>
+			<changesfile>CHANGES</changesfile>
+		</release>
+		<description>HTML WYSIWYG editor widget.</description>
+		<category>libraries</category>
+		<iconfile></iconfile>
+		<dependencies>
+			<dependency>innomatic[5.0]</dependency>
+		</dependencies>
+		<options>
+			<!-- <option></option> -->
+		</options>
+		<legal>
+			<author>
+				<name>Frederico Caldeira Knabben</name>
+				<email></email>
+				<web>http://www.fckeditor.net/</web>
+			</author>
+			<copyright>Copyright (C) 2003-2008 Frederico Caldeira Knabben</copyright>
+			<license>MPL</license>
+			<licensefile>LICENSE</licensefile>
+		</legal>
+		<support>
+			<supportemail>support@innomatica.it</supportemail>
+			<bugsemail>bugs@innomatica.it</bugsemail>
+			<maintainer>
+				<name>Alex Pagnoni</name>
+				<email>alex.pagnoni@innoteam.it</email>
+			</maintainer>
+		</support>
+	</definition>
+
+<components>
+
+    <wuiwidget
+        name="fckeditor"
+        file="WuiFckeditor.php"/>
+
+    <generalpreinstall
+        file="generalpreinstall.php"/>
+
+    <generalpreupdate
+        file="generalpreupdate.php"/>
+
+    <generalpostuninstall
+        file="generalpostuninstall.php"/>
+
+</components></application>
