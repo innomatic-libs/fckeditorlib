@@ -3,7 +3,7 @@
 	<definition>
 		<idname>fckeditorlib</idname>
 		<release>
-			<version>2.6.3-1</version>
+			<version>2.6.4</version>
 			<date>2009/01/29</date>
 			<changesfile>CHANGES</changesfile>
 		</release>
